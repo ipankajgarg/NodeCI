@@ -7,7 +7,7 @@ module.exports = {
   googleClientID:
     "13692393153-ink61j259cqr1e3s4ol8boidgsshohdt.apps.googleusercontent.com",
   googleClientSecret: "6VHCgwPwspFw3Xm6Jre2kbae",
-  mongoURI: "mongodb://mydatabase:password@ds143559.mlab.com:43559/emaily-dev",
+  mongoURI: "mongodb://127.0.0.1:27017/blog_ci",
   cookieKey: "thisisforencryption",
   redisUrl: "redis://127.0.0.1:6379"
 };
