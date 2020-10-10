@@ -15,7 +15,7 @@ const key = `${req.user.id}/${uuid()}.jpeg`;
 
     s3.getSignedUrl('putObject',{
         Bucket:"my-first-aws-bucket-1",
-        ContentType : 'jpeg',
+        ContentType : 'image/jpeg',
         Key:key
     },(err,url)=>{
 res.send({key,url})
